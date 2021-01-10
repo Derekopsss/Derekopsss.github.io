@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NewFat-Свежие новости и обсуждения</title>
+    <link href="https://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
+       <style>
+         body {
+           font-family: 'Roboto Regular', arial;
+           font-size: 48px;
+
+         }
+       </style>
+<link rel="stylesheet" href="style.css">
+<script>
+  $(function() {
+    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+        viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+        document.body.addEventListener('gesturestart', function () {
+          viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+        }, false);
+      }
+    }
+  })
+</script>
+
+  </head>
+  <body>
+
+<div class="menu" >
+
+  <p class="logo"><span>New</span><span>Fact</span></p>
+
+<p class="ped" >Новые факты,новости,розыгрыши</p>
+<a href="#" style="text-decoration: none" ><img class="teh" src="https://img.icons8.com/fluent-systems-regular/48/000000/online-support.png"/> </a>
+<a href="#" style="text-decoration: none" ><img class="vk"  src="https://img.icons8.com/fluent-systems-regular/48/000000/vk-com.png"/></a>
+</div>
+
+
+
+
+
+
+  </body>
+</html>
